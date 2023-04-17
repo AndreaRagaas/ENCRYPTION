@@ -3,6 +3,7 @@
 input_str = input("Write the text that you wanted to encrypt: ")
 output_str = ""
 #check each character
+for i in range(len(input_str)):
 #if a, change to *
 #if e, change to &
 #if i, change to #
